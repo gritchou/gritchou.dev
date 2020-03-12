@@ -1,0 +1,28 @@
+@import '../../variables';
+
+:host {
+	// min-height: 16em;
+	height: 10em;
+	background-color: $primary;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+.social {
+	position: relative;
+	top: 2em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-size: 2em;
+	.icon + .icon {
+		margin-left: 1em;
+	}
+
+	fa-icon:hover {
+		cursor: pointer;
+		color: $secondary;
+	}
+}

@@ -1,0 +1,27 @@
+@import '../../variables';
+
+:host {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: calc(100% - 10em - 64px);
+}
+
+.me {
+	max-width: 20em;
+}
+
+.quote {
+	margin-left: 2em;
+	font-size: 1.5em;
+	color: $primary;
+	&::before {
+		content: '«';
+	}
+	&::after {
+		content: '»';
+	}
+	&::before, &::after {
+		margin: 0 0.5em;
+	}
+}
