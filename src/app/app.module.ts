@@ -10,12 +10,16 @@ import { MatCardModule } from '@angular/material/card';
 import { FooterComponent } from './footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AboutComponent } from './about/about.component';
+import { ResumeComponent } from './resume/resume.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         FooterComponent,
-        AboutComponent
+        AboutComponent,
+        ResumeComponent,
+        PortfolioComponent
     ],
     imports: [
         BrowserModule,
