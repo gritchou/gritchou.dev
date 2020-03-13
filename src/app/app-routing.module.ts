@@ -6,14 +6,14 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 
 
 const routes: Routes = [
-    // { path: '/', component: AboutComponent },
-    { path: 'about', component: AboutComponent },
-    { path: 'resume', component: ResumeComponent },
-    { path: 'portfolio', component: PortfolioComponent },
+	// { path: '/', component: AboutComponent },
+	{ path: 'about', component: AboutComponent },
+	{ path: 'resume', component: ResumeComponent },
+	{ path: 'portfolio', component: PortfolioComponent },
 ];
 
 @NgModule({
-    imports: [RouterModule.forRoot(routes)],
-    exports: [RouterModule]
+	imports: [RouterModule.forRoot(routes)],
+	exports: [RouterModule]
 })
 export class AppRoutingModule { }

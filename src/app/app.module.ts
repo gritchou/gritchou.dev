@@ -12,25 +12,27 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AboutComponent } from './about/about.component';
 import { ResumeComponent } from './resume/resume.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 @NgModule({
-    declarations: [
-        AppComponent,
-        FooterComponent,
-        AboutComponent,
-        ResumeComponent,
-        PortfolioComponent
-    ],
-    imports: [
-        BrowserModule,
-        AppRoutingModule,
-        BrowserAnimationsModule,
-        MatButtonModule,
-        MatToolbarModule,
-        MatCardModule,
-        FontAwesomeModule,
-    ],
-    providers: [],
-    bootstrap: [AppComponent]
+	declarations: [
+		AppComponent,
+		FooterComponent,
+		AboutComponent,
+		ResumeComponent,
+		PortfolioComponent,
+		ExperienceComponent
+	],
+	imports: [
+		BrowserModule,
+		AppRoutingModule,
+		BrowserAnimationsModule,
+		MatButtonModule,
+		MatToolbarModule,
+		MatCardModule,
+		FontAwesomeModule,
+	],
+	providers: [],
+	bootstrap: [AppComponent]
 })
 export class AppModule { }
