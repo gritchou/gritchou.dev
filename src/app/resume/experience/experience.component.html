@@ -1,6 +1,26 @@
-<div>{{ experience.startDate }}</div>
-<div>{{ experience.endDate }}</div>
-<div>{{ experience.jobTitle }}</div>
-<div>{{ experience.company }}</div>
-<div>{{ experience.location }}</div>
-<div *ngFor="let achievment of experience.achievments">{{ achievment }}</div>
+<div class="experience">
+    <div class="date">
+        <span>{{ experience.startDate }}</span
+        ><span>{{ experience.endDate }}</span>
+    </div>
+    <div class="header">
+        <span class="jobTitle">{{ experience.jobTitle }}</span>
+        <span class="company">{{ experience.company }},</span>
+        <span class="location">{{ experience.location }}</span>
+    </div>
+    <div class="logo">
+        <img
+            src="{{ getSrc() }}"
+            alt="{{ experience.company }}"
+            height="64"
+            width="64"
+        />
+    </div>
+    <div class="achievements">
+        <div
+            *ngFor="let achievement of experience.achievements"
+            class="achievement"
+            [innerHTML]="achievement"
+        ></div>
+    </div>
+</div>

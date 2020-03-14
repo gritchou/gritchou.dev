@@ -1,0 +1,22 @@
+@import "../../variables";
+
+:host {
+    display: grid;
+    grid-template-columns: 12em auto;
+    grid-gap: 2em;
+}
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    .banner {
+        background-color: $primary;
+        height: 0.5em;
+        width: 100%;
+    }
+}
+
+.title {
+    color: $primary;
+    font-size: 2em;
+}

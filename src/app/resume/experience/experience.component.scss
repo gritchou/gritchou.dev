@@ -1,0 +1,61 @@
+@import "../../../variables";
+
+.experience {
+    display: grid;
+    grid-template-columns: 12em auto;
+    grid-template-rows: 4em auto;
+    grid-column-gap: 2em;
+    grid-row-gap: 1em;
+    color: $text-color;
+    width: 100%;
+
+    .date {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        span + span {
+            margin-left: 1em;
+            &::before {
+                margin-right: 1em;
+                content: "\2014";
+            }
+        }
+    }
+
+    .logo {
+        display: flex;
+        justify-content: flex-end;
+        img {
+            align-self: flex-start;
+        }
+        // margin-top: 1em;
+    }
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        // align-items: baseline;
+        .jobTitle {
+            color: $primary;
+            font-size: 1.5em;
+            line-height: 2.25em;
+        }
+        .company,
+        .location {
+            margin-left: 1em;
+        }
+    }
+
+    .achievements {
+        & .achievement::before,
+        .achievement em {
+            font-style: normal;
+            color: $primary;
+        }
+        & .achievement::before {
+            content: "•";
+            margin-right: 0.5em;
+        }
+    }
+}
