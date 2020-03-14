@@ -1,6 +1,6 @@
 :host {
     display: grid;
     grid-gap: 1em;
-    // width: calc(100% - 2em - 2em);
+    min-height: calc(100% - 64px - 10em);
     margin: 2em;
 }
