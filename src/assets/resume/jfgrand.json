@@ -33,6 +33,61 @@
                 "Built backend in <em>Java EE</em> and rewrote it in <em>Node.js</em>",
                 "In charge of Branding, business model, and partners development"
             ]
+        },
+        {
+            "startDate": "Jan 2011",
+            "endDate": "Jan 2013",
+            "jobTitle": "Backend Developer",
+            "company": "INRIA",
+            "image": "inria.png",
+            "location": "Nancy",
+            "achievements": [
+                "Member of the <em>Speech</em> Research Team",
+                "Migrated a foreign language learning software from <em>C</em> to <em>Java</em>",
+                "Developed a <em>scripting interface</em> with ScriptEngine, Jython and Luajava",
+                "Integrated the team’s speech analysis and synthesis algorithms"
+            ]
+        },
+        {
+            "startDate": "Mar 2010",
+            "endDate": "Oct 2010",
+            "jobTitle": "Backend Developer Intern",
+            "company": "THALES Theresis",
+            "image": "thales.jpeg",
+            "location": "Paris",
+            "achievements": [
+                "Contributed to European <em>Open source</em> project QualiPSo",
+                "Developed the <em>issuetracker</em> of a new generation forge with Java EE and GWT",
+                "Developed components for a <em>GWT library</em>: OpenParts"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "year": 2010,
+            "level": "Master’s Degree",
+            "topic": "Software Engineering",
+            "school": "Université de Lorraine",
+            "location": "Nancy"
+        },
+        {
+            "year": 2008,
+            "level": "Bachelor of Science",
+            "topic": "Mathematics and Software",
+            "school": "Université de Lorraine",
+            "location": "Nancy"
+        }
+    ],
+    "skills": [
+        {
+            "Frontend Basis": "HTML, CSS, JS, TS",
+            "Frameworks": "Angular, AngularJS",
+            "Build Tools": "Webpack, Sass",
+            "DevOps": "Gitlab, Docker, K8s",
+            "Libraries": "Angular Material, Node.js",
+            "Testing": "Cypress",
+            "French": "Native",
+            "English": "Full professional"
         }
     ]
 }
