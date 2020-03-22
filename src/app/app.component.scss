@@ -1,0 +1,12 @@
+:host {
+	display: contents;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	overflow: auto;
+}
+
+mat-toolbar {
+	flex-shrink: 0;
+}
