@@ -1,0 +1,28 @@
+@import "../../../variables";
+
+:host {
+	display: grid;
+	grid-template-columns: 12em auto;
+	grid-column-gap: 2em;
+	grid-row-gap: 1em;
+	color: $text-color;
+	width: 100%;
+
+	@media (max-width: 500px) {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.category {
+	display: flex;
+	justify-content: flex-end;
+	align-self: baseline;
+}
+
+@media (max-width: 500px) {
+    .category {
+		justify-content: flex-start;
+		font-weight: bold;
+    }
+}
