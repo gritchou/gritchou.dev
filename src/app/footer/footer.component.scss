@@ -1,13 +1,10 @@
 @import '../../variables';
 
 :host {
-	// min-height: 16em;
 	height: 10em;
 	background-color: $primary;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
+	display: block;
+	flex-shrink: 0;
 }
 
 .social {

@@ -1,10 +1,8 @@
-import { Component, OnInit, HostBinding } from '@angular/core';
+import { Component, HostBinding } from '@angular/core';
+import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelopeSquare, faIdCard } from '@fortawesome/free-solid-svg-icons';
 
-import { faLinkedin, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faFilePdf } from '@fortawesome/free-regular-svg-icons';
-import { faEnvelopeSquare, faDownload, faFileDownload, faIdCard } from '@fortawesome/free-solid-svg-icons';
-
-const URLS = {
+const URLS: Record<string, string> = {
 	twitter: 'https://twitter.com/gritchou',
 	github: 'https://github.com/gritchou',
 	linkedin: 'https://www.linkedin.com/in/jfgrand/',
@@ -16,8 +14,7 @@ const URLS = {
 	templateUrl: './footer.component.html',
 	styleUrls: ['./footer.component.scss']
 })
-export class FooterComponent implements OnInit {
-
+export class FooterComponent {
 	@HostBinding('class.mat-elevation-z6') elevation = true;
 	faLinkedin = faLinkedin;
 	faGithub = faGithub;
@@ -25,12 +22,7 @@ export class FooterComponent implements OnInit {
 	faEnvelopeSquare = faEnvelopeSquare;
 	faIdCard = faIdCard;
 
-	constructor() { }
-
-	ngOnInit(): void {
-	}
-
-	openLink(target) {
+	openLink(target: string) {
 		window.open(URLS[target], '_blank');
 	}
 
@@ -39,5 +31,4 @@ export class FooterComponent implements OnInit {
 		link.setAttribute('href', 'mailto:jfr.grand@gmail.com');
 		link.click();
 	}
-
 }
