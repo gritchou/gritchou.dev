@@ -1,61 +1,88 @@
 @import "../../../variables";
 
 .experience {
-    display: grid;
-    grid-template-columns: 12em auto;
-    grid-template-rows: 4em auto;
-    grid-column-gap: 2em;
-    grid-row-gap: 1em;
-    color: $text-color;
-    width: 100%;
+	display: grid;
+	grid-template-columns: 12em auto;
+	grid-column-gap: 2em;
+	grid-row-gap: 1em;
+	color: $text-color;
+	width: 100%;
 
-    .date {
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
+	.date {
+		display: flex;
+		justify-content: flex-end;
+		align-self: baseline;
 
-        span + span {
-            margin-left: 1em;
-            &::before {
-                margin-right: 1em;
-                content: "\2014";
-            }
-        }
-    }
+		span + span {
+			margin-left: 1em;
+			&::before {
+				margin-right: 1em;
+				content: "\2014";
+			}
+		}
+	}
 
-    .logo {
-        display: flex;
-        justify-content: flex-end;
-        img {
-            align-self: flex-start;
-        }
-        // margin-top: 1em;
-    }
-    .header {
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        // align-items: baseline;
-        .jobTitle {
-            color: $primary;
-            font-size: 1.5em;
-            line-height: 2.25em;
-        }
-        .company,
-        .location {
-            margin-left: 1em;
-        }
-    }
+	.logo {
+		display: flex;
+		justify-content: flex-end;
+		padding: 0.25em 0;
+		img {
+			align-self: flex-start;
+		}
+	}
 
-    .achievements {
-        & .achievement::before,
-        .achievement em {
-            font-style: normal;
-            color: $primary;
-        }
-        & .achievement::before {
-            content: "•";
-            margin-right: 0.5em;
-        }
-    }
+	.header {
+		display: flex;
+		align-items: baseline;
+		justify-content: flex-start;
+		align-self: baseline;
+		.job-title {
+			color: $primary;
+			font-size: 1.5em;
+			line-height: 1.5em;
+		}
+		.company,
+		.location {
+			margin-left: 1em;
+		}
+	}
+
+	.achievements {
+		.achievement {
+			line-height: 1.5em;
+		}
+		& .achievement::before,
+		.achievement em {
+			font-style: normal;
+			color: $primary;
+		}
+		margin: 0;
+		padding-left: 1.2em;
+		& li {
+			list-style: none;
+			&::before {
+				content: "○";
+				color: $primary;
+				display: inline-block;
+				width: 1.2em;
+				margin-left: -1.2em;
+			}
+		}
+	}
+}
+
+@media (max-width: 500px) {
+	.experience {
+		grid-template-columns: auto;
+		grid-template-rows: auto;
+
+		.date {
+			justify-content: flex-start;
+			font-weight: bold;
+		}
+
+		.logo {
+			display: none;
+		}
+	}
 }
