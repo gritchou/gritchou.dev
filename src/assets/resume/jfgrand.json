@@ -62,7 +62,7 @@
             ]
         }
     ],
-    "education": [
+    "educations": [
         {
             "year": 2010,
             "level": "Master’s Degree",
@@ -80,14 +80,36 @@
     ],
     "skills": [
         {
-            "Frontend Basis": "HTML, CSS, JS, TS",
-            "Frameworks": "Angular, AngularJS",
-            "Build Tools": "Webpack, Sass",
-            "DevOps": "Gitlab, Docker, K8s",
-            "Libraries": "Angular Material, Node.js",
-            "Testing": "Cypress",
-            "French": "Native",
-            "English": "Full professional"
+            "category": "Frontend Basis",
+            "values": "HTML, CSS, JS, TS"
+        },
+        {
+            "category": "Frameworks",
+            "values": "Angular, AngularJS"
+        },
+        {
+            "category": "Build Tools",
+            "values": "Webpack, Sass"
+        },
+        {
+            "category": "DevOps",
+            "values": "Gitlab, Docker, K8s"
+        },
+        {
+            "category": "Libraries",
+            "values": "Angular Material, Node.js"
+        },
+        {
+            "category": "Testing",
+            "values": "Cypress"
+        },
+        {
+            "category": "French",
+            "values": "Native"
+        },
+        {
+            "category": "English",
+            "values": "Full professional"
         }
     ]
 }
