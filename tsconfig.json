@@ -1,22 +1,47 @@
 {
-    "compileOnSave": false,
-    "compilerOptions": {
-        "baseUrl": "./",
-        "outDir": "./dist/out-tsc",
-        "sourceMap": true,
-        "declaration": false,
-        "downlevelIteration": true,
-        "experimentalDecorators": true,
-        "module": "esnext",
-        "resolveJsonModule": true,
-        "moduleResolution": "node",
-        "importHelpers": true,
-        "target": "es2015",
-        "typeRoots": ["node_modules/@types"],
-        "lib": ["es2018", "dom"]
-    },
-    "angularCompilerOptions": {
-        "fullTemplateTypeCheck": true,
-        "strictInjectionParameters": true
-    }
+	"compilerOptions": {
+		"baseUrl": "..",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"sourceMap": true,
+		"experimentalDecorators": true,
+		"forceConsistentCasingInFileNames": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"strict": true,
+		"removeComments": true,
+		"allowSyntheticDefaultImports": true,
+		"noImplicitReturns": true,
+		"importHelpers": true,
+		"pretty": true,
+		"typeRoots": [
+			"../node_modules/@types"
+		],
+		"plugins": [
+			{
+				"name": "typescript-tslint-plugin",
+				"suppressWhileTypeErrorsPresent": true
+			}
+		],
+		"rootDir": "..",
+		"target": "es2015",
+		"module": "esnext",
+		"downlevelIteration": true,
+		"lib": [
+			"es2019",
+			"dom"
+		],
+		"types": [
+			"css-font-loading-module"
+		]
+	},
+	"angularCompilerOptions": {
+		"skipMetadataEmit": true,
+		"preserveWhitespaces": false,
+		"strictMetadataEmit": true,
+		"strictInjectionParameters": true,
+		"fullTemplateTypeCheck": true,
+		"strictTemplates": true
+	}
 }
