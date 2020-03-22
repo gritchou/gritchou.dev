@@ -1,6 +1,7 @@
-<div class="resume-content">
-    <app-section [title]="'Experience'"></app-section>
-    <app-experience *ngFor="let experience of experiences" [experience]="experience"></app-experience>
-    <app-section [title]="'Education'"></app-section>
-    <app-section [title]="'Technical and Language Skills'"></app-section>    
-</div>
+<app-section [title]="'Experience'"></app-section>
+<app-experience *ngFor="let experience of experiences" [experience]="experience"></app-experience>
+<app-section [title]="'Education'"></app-section>
+<app-education *ngFor="let education of educations" [education]="education"></app-education>
+<app-section [title]="'Technical and Language Skills'"></app-section>
+<app-skill *ngFor="let skill of skills" [skill]="skill"></app-skill>
+<div class="pdf mat-elevation-z6" (click)="openPdf()">PDF</div>
