@@ -1,15 +1,10 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
 	selector: 'app-section',
 	templateUrl: './section.component.html',
-	styleUrls: ['./section.component.scss']
+	styleUrls: ['./section.component.scss'],
 })
-export class SectionComponent implements OnInit {
-
-	@Input() title: string;
-	constructor() { }
-
-	ngOnInit(): void {
-	}
+export class SectionComponent {
+	@Input() title = '< untitled >';
 }

@@ -6,6 +6,12 @@
     grid-gap: 2em;
 }
 
+@media(max-width: 500px) {
+    :host {
+        grid-template-columns: auto;
+    }
+}
+
 .banner-container {
     display: flex;
     align-items: center;
@@ -16,7 +22,21 @@
     }
 }
 
+@media(max-width: 500px) {
+    .banner-container {
+        display: none;
+    }
+}
+
 .title {
     color: $primary;
     font-size: 2em;
+    line-height: 1.5em;
+}
+
+@media(max-width: 500px) {
+    .title {
+        margin-bottom: 1em;
+        font-size: 1.8em;
+    }
 }
