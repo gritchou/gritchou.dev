@@ -28,9 +28,11 @@
 		font-weight: 700;
 		box-sizing: border-box;
 
-		@media(max-width: 500px) {
-			top: 5.5em;
-			right: 2.5em;
+		@media(max-width: 920px) {
+			top: auto;
+			bottom: 3em;
+			right: 2em;
+			z-index: 1;
 		}
 
 		&:hover {
