@@ -1,42 +1,42 @@
 @import "../../variables";
 
 :host {
-    display: grid;
-    grid-template-columns: 12em auto;
-    grid-gap: 2em;
+	display: grid;
+	grid-template-columns: 12em auto;
+	grid-gap: 2em;
 }
 
 @media(max-width: 500px) {
-    :host {
-        grid-template-columns: auto;
-    }
+	:host {
+		grid-template-columns: auto;
+	}
 }
 
 .banner-container {
-    display: flex;
-    align-items: center;
-    .banner {
-        background-color: $primary;
-        height: 0.5em;
-        width: 100%;
-    }
+	display: flex;
+	align-items: center;
+	.banner {
+		background-color: $primary;
+		height: 0.5em;
+		width: 100%;
+	}
 }
 
 @media(max-width: 500px) {
-    .banner-container {
-        display: none;
-    }
+	.banner-container {
+		display: none;
+	}
 }
 
 .title {
-    color: $primary;
-    font-size: 2em;
-    line-height: 1.5em;
+	color: $primary;
+	font-size: 2em;
+	line-height: 1.5em;
 }
 
 @media(max-width: 500px) {
-    .title {
-        margin-bottom: 1em;
-        font-size: 1.8em;
-    }
+	.title {
+		margin-bottom: 1em;
+		font-size: 1.8em;
+	}
 }
