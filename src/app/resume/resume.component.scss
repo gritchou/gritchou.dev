@@ -1,39 +1,43 @@
 @import "../../variables";
 
 :host {
-	flex-grow: 1;
 	padding: 2em;
-	display: grid;
-	grid-gap: 1em;
 	align-self: center;
-	max-width: 360em;
+
 }
 
-.pdf {
-	border-radius: 50%;
-	color: white;
-	background-color: $secondary;
-	position: fixed;
-	right: 10em;
-	top: 6em;
-	width: 4em;
-	height: 4em;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-size: 1.5em;
-	font-weight: 700;
-	box-sizing: border-box;
+.resume {
+	flex-grow: 1;
+	display: grid;
+	grid-gap: 1em;
+	max-width: 360em;
 
-	&:hover {
-		color: $secondary;
-		background-color: white;
-		border: 6px solid $secondary;
-		cursor: pointer;
-	}
+	.pdf {
+		border-radius: 50%;
+		color: white;
+		background-color: $secondary;
+		position: fixed;
+		right: 10em;
+		top: 5em;
+		width: 4em;
+		height: 4em;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 1.5em;
+		font-weight: 700;
+		box-sizing: border-box;
 
-	@media(max-width: 500px) {
-		top: 4em;
-		right: 3em;
+		@media(max-width: 500px) {
+			top: 5.5em;
+			right: 2.5em;
+		}
+
+		&:hover {
+			color: $secondary;
+			background-color: white;
+			border: 6px solid $secondary;
+			cursor: pointer;
+		}
 	}
 }

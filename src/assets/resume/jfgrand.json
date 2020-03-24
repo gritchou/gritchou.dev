@@ -1,115 +1,121 @@
 {
-    "experiences": [
-        {
-            "startDate": "Apr 2016",
-            "endDate": "Sep 2019",
-            "jobTitle": "Frontend Developer",
-            "company": "Oodrive",
-            "image": "oodrive.png",
-            "location": "Paris",
-            "achievements": [
-                "Built <em>responsive single page</em> web applications",
-                "Migrated the two main applications from <em>AngularJS</em> to <em>Angular</em>",
-                "Developed reusable <em>components</em> and <em>libraries</em> with Angular",
-                "<em>Lead frontend</em> development of a project with three frontend developers",
-                "Wrote <em>REST API specifications</em> to define contract for new features",
-                "Automatized <em>build</em> and <em>deployment</em> with GitLab CI/CD, Docker, Kubernetes",
-                "Created handlebars <em>email templates</em> and helpers",
-                "Gave two <em>public talks</em> and a <em>training</em> on Browser Extensions",
-                "Attended <em>professional trainings</em>: Angular (Sfeir School), Node.js (Human Coders)"
-            ]
-        },
-        {
-            "startDate": "Jan 2013",
-            "endDate": "Apr 2016",
-            "jobTitle": "Fullstack Developer and Founder",
-            "company": "Try Hard Go Pro",
-            "image": "tryhardgopro.png",
-            "location": "Nancy",
-            "achievements": [
-                "<em>Created</em> a website for League of Legends players using Riot Games API",
-                "Developed <em>responsive frontend</em> with Backbone.js and Bootstrap",
-                "Integrated <em>Google Analytics</em> to get insight on the product’s usage",
-                "Built backend in <em>Java EE</em> and rewrote it in <em>Node.js</em>",
-                "In charge of Branding, business model, and partners development"
-            ]
-        },
-        {
-            "startDate": "Jan 2011",
-            "endDate": "Jan 2013",
-            "jobTitle": "Backend Developer",
-            "company": "INRIA",
-            "image": "inria.png",
-            "location": "Nancy",
-            "achievements": [
-                "Member of the <em>Speech</em> Research Team",
-                "Migrated a foreign language learning software from <em>C</em> to <em>Java</em>",
-                "Developed a <em>scripting interface</em> with ScriptEngine, Jython and Luajava",
-                "Integrated the team’s speech analysis and synthesis algorithms"
-            ]
-        },
-        {
-            "startDate": "Mar 2010",
-            "endDate": "Oct 2010",
-            "jobTitle": "Backend Developer Intern",
-            "company": "THALES Theresis",
-            "image": "thales.jpeg",
-            "location": "Paris",
-            "achievements": [
-                "Contributed to European <em>Open source</em> project QualiPSo",
-                "Developed the <em>issuetracker</em> of a new generation forge with Java EE and GWT",
-                "Developed components for a <em>GWT library</em>: OpenParts"
-            ]
-        }
-    ],
-    "educations": [
-        {
-            "year": 2010,
-            "level": "Master’s Degree",
-            "topic": "Software Engineering",
-            "school": "Université de Lorraine",
-            "location": "Nancy"
-        },
-        {
-            "year": 2008,
-            "level": "Bachelor of Science",
-            "topic": "Mathematics and Software",
-            "school": "Université de Lorraine",
-            "location": "Nancy"
-        }
-    ],
-    "skills": [
-        {
-            "category": "Frontend Basis",
-            "values": "HTML, CSS, JS, TS"
-        },
-        {
-            "category": "Frameworks",
-            "values": "Angular, AngularJS"
-        },
-        {
-            "category": "Build Tools",
-            "values": "Webpack, Sass"
-        },
-        {
-            "category": "DevOps",
-            "values": "Gitlab, Docker, K8s"
-        },
-        {
-            "category": "Libraries",
-            "values": "Angular Material, Node.js"
-        },
-        {
-            "category": "Testing",
-            "values": "Cypress"
-        },
-        {
-            "category": "French",
-            "values": "Native"
-        },
-        {
-            "category": "English",
-            "values": "Full professional"
-        }
-    ]
+	"header": {
+		"name": "Jean-François Grand",
+		"jobTitle": "Frontend Developer",
+		"description": "Experienced Frontend Developer with a strong team mindset and a focus on making user sentiment drive product development",
+		"quote": "I'm gonna eat your brains and gain your knowledge"
+	},
+	"experiences": [
+		{
+			"startDate": "Apr 2016",
+			"endDate": "Sep 2019",
+			"jobTitle": "Frontend Developer",
+			"company": "Oodrive",
+			"image": "oodrive.png",
+			"location": "Paris",
+			"achievements": [
+				"Built <em>responsive single page</em> web applications",
+				"Migrated the two main applications from <em>AngularJS</em> to <em>Angular</em>",
+				"Developed reusable <em>components</em> and <em>libraries</em> with Angular",
+				"<em>Lead frontend</em> development of a project with three frontend developers",
+				"Wrote <em>REST API specifications</em> to define contract for new features",
+				"Automatized <em>build</em> and <em>deployment</em> with GitLab CI/CD, Docker, Kubernetes",
+				"Created handlebars <em>email templates</em> and helpers",
+				"Gave two <em>public talks</em> and a <em>training</em> on Browser Extensions",
+				"Attended <em>professional trainings</em>: Angular (Sfeir School), Node.js (Human Coders)"
+			]
+		},
+		{
+			"startDate": "Jan 2013",
+			"endDate": "Apr 2016",
+			"jobTitle": "Fullstack Developer and Founder",
+			"company": "Try Hard Go Pro",
+			"image": "tryhardgopro.png",
+			"location": "Nancy",
+			"achievements": [
+				"<em>Created</em> a website for League of Legends players using Riot Games API",
+				"Developed <em>responsive frontend</em> with Backbone.js and Bootstrap",
+				"Integrated <em>Google Analytics</em> to get insight on the product’s usage",
+				"Built backend in <em>Java EE</em> and rewrote it in <em>Node.js</em>",
+				"In charge of Branding, business model, and partners development"
+			]
+		},
+		{
+			"startDate": "Jan 2011",
+			"endDate": "Jan 2013",
+			"jobTitle": "Backend Developer",
+			"company": "INRIA",
+			"image": "inria.png",
+			"location": "Nancy",
+			"achievements": [
+				"Member of the <em>Speech</em> Research Team",
+				"Migrated a foreign language learning software from <em>C</em> to <em>Java</em>",
+				"Developed a <em>scripting interface</em> with ScriptEngine, Jython and Luajava",
+				"Integrated the team’s speech analysis and synthesis algorithms"
+			]
+		},
+		{
+			"startDate": "Mar 2010",
+			"endDate": "Oct 2010",
+			"jobTitle": "Backend Developer Intern",
+			"company": "THALES Theresis",
+			"image": "thales.jpeg",
+			"location": "Paris",
+			"achievements": [
+				"Contributed to European <em>Open source</em> project QualiPSo",
+				"Developed the <em>issuetracker</em> of a new generation forge with Java EE and GWT",
+				"Developed components for a <em>GWT library</em>: OpenParts"
+			]
+		}
+	],
+	"educations": [
+		{
+			"year": 2010,
+			"level": "Master’s Degree",
+			"topic": "Software Engineering",
+			"school": "Université de Lorraine",
+			"location": "Nancy"
+		},
+		{
+			"year": 2008,
+			"level": "Bachelor of Science",
+			"topic": "Mathematics and Software",
+			"school": "Université de Lorraine",
+			"location": "Nancy"
+		}
+	],
+	"skills": [
+		{
+			"category": "Frontend Basis",
+			"values": "HTML, CSS, JS, TS"
+		},
+		{
+			"category": "Frameworks",
+			"values": "Angular, AngularJS"
+		},
+		{
+			"category": "Build Tools",
+			"values": "Webpack, Sass"
+		},
+		{
+			"category": "DevOps",
+			"values": "Gitlab, Docker, K8s"
+		},
+		{
+			"category": "Libraries",
+			"values": "Angular Material, Node.js"
+		},
+		{
+			"category": "Testing",
+			"values": "Cypress"
+		},
+		{
+			"category": "French",
+			"values": "Native"
+		},
+		{
+			"category": "English",
+			"values": "Full professional"
+		}
+	]
 }

@@ -1,3 +1,10 @@
+export interface Header {
+	name: string;
+	jobTitle: string;
+	description: string;
+	quote: string;
+}
+
 export interface Experience {
 	startDate: string;
 	endDate: string;

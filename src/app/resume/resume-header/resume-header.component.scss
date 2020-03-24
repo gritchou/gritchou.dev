@@ -1,0 +1,30 @@
+@import "../../../variables";
+
+:host {
+	display: grid;
+	grid-template-columns: 12em auto;
+	grid-gap: 2em;
+	max-width: 45em;
+	margin: 1em 0;
+	color: $text-color;
+
+	@media(max-width: 500px) {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.name {
+	font-size: 2.5em;
+}
+
+.job-title {
+	color: $primary;
+	font-size: 2em;
+}
+
+@media(max-width: 500px) {
+	.name, .job-title {
+		margin-bottom: 1em;
+	}
+}

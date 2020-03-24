@@ -16,6 +16,7 @@ import { ExperienceComponent } from './resume/experience/experience.component';
 import { SectionComponent } from './section/section.component';
 import { EducationComponent } from './resume/education/education.component';
 import { SkillComponent } from './resume/skill/skill.component';
+import { ResumeHeaderComponent } from './resume/resume-header/resume-header.component';
 
 @NgModule({
 	declarations: [
@@ -27,7 +28,8 @@ import { SkillComponent } from './resume/skill/skill.component';
 		ExperienceComponent,
 		EducationComponent,
 		SkillComponent,
-		SectionComponent
+		SectionComponent,
+		ResumeHeaderComponent
 	],
 	imports: [
 		BrowserModule,
