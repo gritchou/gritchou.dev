@@ -33,7 +33,7 @@
 			"dom"
 		],
 		"types": [
-			"css-font-loading-module"
+			"jasmine"
 		]
 	},
 	"angularCompilerOptions": {
