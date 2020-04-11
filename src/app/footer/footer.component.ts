@@ -2,12 +2,7 @@ import { Component, HostBinding } from '@angular/core';
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelopeSquare, faIdCard } from '@fortawesome/free-solid-svg-icons';
 
-const URLS: Record<string, string> = {
-	twitter: 'https://twitter.com/gritchou',
-	github: 'https://github.com/gritchou',
-	linkedin: 'https://www.linkedin.com/in/jfgrand/',
-	resume: 'assets/resume/jfgrand.pdf',
-};
+import { openLink, sendMail } from '../social';
 
 @Component({
 	selector: 'app-footer',
@@ -23,12 +18,10 @@ export class FooterComponent {
 	faIdCard = faIdCard;
 
 	openLink(target: string) {
-		window.open(URLS[target], '_blank');
+		openLink(target);
 	}
 
 	sendMail() {
-		const link = document.createElement('a');
-		link.setAttribute('href', 'mailto:jfr.grand@gmail.com');
-		link.click();
+		sendMail();
 	}
 }

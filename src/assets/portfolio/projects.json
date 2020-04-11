@@ -1,0 +1,40 @@
+{
+	"description": "My projects",
+	"projects": [
+		{
+			"name": "Algolia",
+			"preview": "algolia.png",
+			"description": "This project enforces Algolia's instant-search library in an Angular project with Angular Material.",
+			"demo": "algolia.gritchou.dev",
+			"code": "github.com/gritchou/algolia"
+		},
+		{
+			"name": "Renovation",
+			"preview": "renovation.png",
+			"description": "This project helps a user to get an estimate of his renovation needs with a small survey. Built with angular material steppers.",
+			"demo": "renovation.gritchou.dev",
+			"code": "github.com/gritchou/renovation"
+		},
+		{
+			"name": "Tribute",
+			"preview": "tribute.png",
+			"description": "This is a full HTML/CSS page tribute to Alain de Monéys. He was a young French nobleman murdered on 16 August 1870 in the village of Hautefaye. It is part of the feecodecamp.org Responsive Web Design certification.",
+			"demo": "tribute.gritchou.dev",
+			"code": "github.com/gritchou/tribute"
+		},
+		{
+			"name": "gritchou.dev",
+			"preview": "gritchou.png",
+			"description": "My personal web page built with Angular.",
+			"demo": "gritchou.dev",
+			"code": "github.com/gritchou/gritchou.dev"
+		},
+		{
+			"name": "Try Hard Go Pro",
+			"preview": "tryhardgopro.png",
+			"description": "This project uses Riot Games API to give League of Legends players statistics about their games. Backend was built with Java and migrated to Node.js. The frontend was built with backbone.js and bootstrap. It is no longer maintained.",
+			"demo": "tryhardgopro.com",
+			"stageName": "production"
+		}
+	]
+}

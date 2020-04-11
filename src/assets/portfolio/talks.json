@@ -1,0 +1,21 @@
+{
+	"description": "Here are the links to my talks",
+	"talks": [
+		{
+			"title": "Make browser extension great again",
+			"description": "This is the first talk I gave on browser extensions along with Dhaya Benmessaoud.",
+			"Author": "Jean François Grand & Dhaya Benmessaoud",
+			"date": "March 9, 2018",
+			"conference": "R&Day 11",
+			"link": "https://www.youtube.com/watch?v=BElclOxXz4k"
+		},
+		{
+			"title": "Make Browser Extensions Great Again... Again",
+			"description": "This is the second talk I gave, on the same topic: browser extensions, again along with Dhaya Benmessaoud.",
+			"Author": "Jean François Grand & Dhaya Benmessaoud",
+			"date": "June 20, 2018",
+			"conference": "Open R&Day",
+			"link": "https://www.youtube.com/watch?v=usSQTIljYbU"
+		}
+	]
+}

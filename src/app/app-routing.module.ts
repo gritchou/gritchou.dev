@@ -9,7 +9,7 @@ const routes: Routes = [
 	{ path: '', redirectTo: 'about', pathMatch: 'full' },
 	{ path: 'about', component: AboutComponent },
 	{ path: 'resume', component: ResumeComponent },
-	{ path: 'portfolio', component: PortfolioComponent },
+	{ path: 'projects', component: PortfolioComponent },
 ];
 
 @NgModule({

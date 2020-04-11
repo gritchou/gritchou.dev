@@ -1,1 +1,18 @@
-<p>portfolio works!</p>
+<div class="title">{{ description }}</div>
+<div class="projects">
+	<ng-container *ngFor="let project of projects">
+		<app-preview [name]="project.name" [image]="project.preview" [title]="project.stageName || 'demo'" (click)="openDemo(project)"></app-preview>
+		<div class="description">
+			<div class="name">{{ project.name }}</div>
+			<div class="link">
+				<fa-icon [icon]="faExternalLinkAlt" (click)="openDemo(project)" title="View {{ project.stageName || 'demo' }}"></fa-icon>
+				<a href="{{ 'http://' + project.demo }}" target="_blank">{{ project.stageName || 'demo' }}</a>
+			</div>
+			<div *ngIf="project.code" class="link">
+				<fa-icon [icon]="faGithub" (click)="openCode(project)" title="View code on github"></fa-icon>
+				<a href="{{ 'http://' + project.code }}" target="_blank">Code</a>
+			</div>
+			<div class="description">{{ project.description }}</div>
+		</div>
+	</ng-container>
+</div>

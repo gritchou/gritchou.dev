@@ -17,6 +17,7 @@ import { SectionComponent } from './section/section.component';
 import { EducationComponent } from './resume/education/education.component';
 import { SkillComponent } from './resume/skill/skill.component';
 import { HeaderComponent } from './resume/header/header.component';
+import { PreviewComponent } from './portfolio/preview/preview.component';
 
 @NgModule({
 	declarations: [
@@ -29,7 +30,8 @@ import { HeaderComponent } from './resume/header/header.component';
 		EducationComponent,
 		SkillComponent,
 		SectionComponent,
-		HeaderComponent
+		HeaderComponent,
+		PreviewComponent
 	],
 	imports: [
 		BrowserModule,
