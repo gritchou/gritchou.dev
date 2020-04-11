@@ -1,6 +1,6 @@
 @import "../../../variables";
 
-:host {
+.header {
 	display: grid;
 	grid-template-columns: 12em auto;
 	grid-gap: 2em;
@@ -12,20 +12,35 @@
 		display: flex;
 		flex-direction: column;
 	}
-}
 
-.name {
-	font-size: 2.5em;
-	line-height: 1.5em;
-}
+	.email {
+		display: flex;
+		justify-content: flex-end;
+		align-self: baseline;
+		font-size: 1.5em;
+		color: $primary;
+	}
 
-.job-title {
-	color: $primary;
-	font-size: 2em;
-}
+	.name {
+		display: flex;
+		align-items: baseline;
+		align-self: baseline;
+		font-size: 2.5em;
+		line-height: 1.5em;
+	}
 
-@media(max-width: 500px) {
-	.name, .job-title {
-		margin-bottom: 1em;
+	.job-title {
+		color: $primary;
+		font-size: 2em;
+	}
+
+	@media(max-width: 500px) {
+		.email, .name, .job-title {
+			margin-bottom: 1em;
+		}
+		.name {
+			font-size: 2.2em;
+		}
 	}
 }
+

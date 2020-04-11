@@ -1,5 +1,6 @@
 export interface Header {
 	name: string;
+	email: string;
 	jobTitle: string;
 	description: string;
 	quote: string;
