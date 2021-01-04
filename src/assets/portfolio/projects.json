@@ -35,6 +35,13 @@
 			"description": "This project uses Riot Games API to give League of Legends players statistics about their games. Backend was built with Java and migrated to Node.js. The frontend was built with backbone.js and bootstrap. It is no longer maintained.",
 			"demo": "tryhardgopro.com",
 			"stageName": "production"
+		},
+		{
+			"name": "Happy",
+			"preview": "happy.png",
+			"description": "This is a Work in progress. I wanted to draw something with CSS only (SCSS to be honest). I found a picture of the character named Happy from the anime Fairy Tails and I tried to reproduced it exactly. There is still work to do.",
+			"demo": "happy.gritchou.dev",
+			"code": "github.com/gritchou/happy"
 		}
 	]
 }
