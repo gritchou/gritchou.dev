@@ -8,5 +8,6 @@ export interface Project {
 	preview: string;
 	description: string;
 	demo: string;
-	code: string;
+	code?: string;
+	stageName?: string;
 }
