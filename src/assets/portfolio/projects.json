@@ -2,9 +2,16 @@
 	"description": "My projects",
 	"projects": [
 		{
+			"name": "Algozon",
+			"preview": "algozon.png",
+			"description": "This project enforces Algolia's instant-search library in an Angular project with Angular Material.",
+			"demo": "algozon.gritchou.dev",
+			"code": "github.com/gritchou/algozon"
+		},
+		{
 			"name": "Algolia",
 			"preview": "algolia.png",
-			"description": "This project enforces Algolia's instant-search library in an Angular project with Angular Material.",
+			"description": "This project is an older version of the previous one.",
 			"demo": "algolia.gritchou.dev",
 			"code": "github.com/gritchou/algolia"
 		},
