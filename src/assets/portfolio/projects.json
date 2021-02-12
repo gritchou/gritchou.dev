@@ -49,6 +49,12 @@
 			"description": "This is a Work in progress. I wanted to draw something with CSS only (SCSS to be honest). I found a picture of the character named Happy from the anime Fairy Tails and I tried to reproduced it exactly. There is still work to do.",
 			"demo": "happy.gritchou.dev",
 			"code": "github.com/gritchou/happy"
+		},
+		{
+			"name": "Telegram Sticker Bot",
+			"preview": "telegram.png",
+			"description": "When the bot detects a specific word it will send the chosen sticker.",
+			"code": "github.com/gritchou/telegram-sticker-bot"
 		}
 	]
 }

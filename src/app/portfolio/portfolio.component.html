@@ -3,8 +3,9 @@
 	<ng-container *ngFor="let project of projects">
 		<app-preview [name]="project.name" [image]="project.preview" [title]="project.stageName || 'demo'" (click)="openDemo(project)"></app-preview>
 		<div class="description">
-			<div class="name">{{ project.name }}</div>
-			<div class="link">
+			<div class="name">{{ project.name }}
+			</div>
+			<div *ngIf="project.demo" class="link">
 				<fa-icon [icon]="faExternalLinkAlt" (click)="openDemo(project)" title="View {{ project.stageName || 'demo' }}"></fa-icon>
 				<a href="{{ 'http://' + project.demo }}" target="_blank">{{ project.stageName || 'demo' }}</a>
 			</div>
