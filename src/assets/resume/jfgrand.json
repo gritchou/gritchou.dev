@@ -8,6 +8,21 @@
 	},
 	"experiences": [
 		{
+			"startDate": "Feb 2021",
+			"endDate": "Present",
+			"jobTitle": "Solutions Engineer",
+			"company": "Algolia",
+			"image": "algolia.png",
+			"location": "Paris",
+			"achievements": [
+				"Part of the <em>Solutions Engineering team</em> for Europe, Middle East and Africa (EMEA).",
+				"Working on the <em>Small and Medium Businesses</em> (SMB) segment.",
+				"Helping customers find value with their users <em>search experience</em>.",
+				"Building <em>Proof Of Concepts</em> and <em>Demos</em>.",
+				"Assisting Account Executives to <em>achieve Technical Win</em>."
+			]
+		},
+		{
 			"startDate": "Apr 2016",
 			"endDate": "Sep 2019",
 			"jobTitle": "Frontend Developer",
